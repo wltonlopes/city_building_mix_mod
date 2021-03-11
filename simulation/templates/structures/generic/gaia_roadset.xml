@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_roadset">
+   <AutoBuildable>
+       <Rate>3</Rate>
+   </AutoBuildable>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Stone road</SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/generic/gaia_road_intersection</Tower>
+      <WallLong>structures/generic/gaia_road_long</WallLong>
+      <Gate>structures/generic/gaia_road_medium</Gate>
+      <WallMedium>structures/generic/gaia_road_medium</WallMedium>
+      <WallShort>structures/generic/gaia_road_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

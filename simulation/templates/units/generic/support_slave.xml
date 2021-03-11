@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_slave">
+  <Health>
+    <DeathType>corpse</DeathType>
+    <Max>100</Max>
+    <RegenRate>60000</RegenRate>
+    <IdleRegenRate>-5</IdleRegenRate>
+    <Unhealable>false</Unhealable>
+  </Health>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Doûlos</SpecificName>
+    <Icon>units/global_slave.png</Icon>
+  </Identity>
+    <ResourceTrickle>
+    <Interval>60000</Interval>
+    <Rates>
+      <food>-2</food>
+     <water>-2</water>
+    </Rates>
+ </ResourceTrickle>
+  <VisualActor>
+    <Actor>units/global/slave.xml</Actor>
+  </VisualActor>
+</Entity>

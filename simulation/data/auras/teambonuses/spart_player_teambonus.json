@@ -1,0 +1,11 @@
+{
+	"type": "global",
+	"affects": ["Citizen Infantry Spearman"],
+	"affectedPlayers": ["ExclusiveMutualAlly"],
+	"civ": "spart",
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.1 }
+	],
+	"auraName": "Peloponnesian League",
+	"auraDescription": "Allied Citizen Infantry Spearmen +10% health."
+}

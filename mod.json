@@ -1,0 +1,11 @@
+{
+  "name": "fortress_and_cities",
+  "version": "0.0.0",
+  "label": "Fortress and Cities",
+  "url": "/",
+  "description": ".",
+  "dependencies": [
+    "0ad=0.0.24"
+  ],
+  "type": "game"
+}

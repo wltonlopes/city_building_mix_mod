@@ -1,0 +1,12 @@
+{
+	"code": "water",
+	"name": "Water",
+	"description": "G.",
+	"order": 6,
+	"subtypes": {
+		"water": "Water"
+	},
+    "properties": [],
+	"truePrice": 100,
+	"aiAnalysisInfluenceGroup": "ignore"
+}

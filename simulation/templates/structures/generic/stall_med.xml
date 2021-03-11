@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic">
+ <AutoBuildable>
+       <Rate>3</Rate>
+   </AutoBuildable>
+    <BuildRestrictions>
+    <Category>Stall</Category>
+	<Territory>own ally</Territory>
+	<PlacementType>land-shore</PlacementType>
+    <Distance>
+      <FromClass>Market</FromClass>
+      <MaxDistance>35</MaxDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Footprint>
+    <Square width="15" depth="8"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <Identity>
+      <Civ>gaia</Civ>
+    <SpecificName>Medium stall</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="13" depth="6"/>
+  </Obstruction>
+      <ResourceTrickle>
+    <Interval>60000</Interval>
+    <Rates>
+      <coin>40</coin>
+    </Rates>
+ </ResourceTrickle>
+  <VisualActor>
+    <Actor>structures/ptolemies/stall_med.xml</Actor>
+  </VisualActor>
+</Entity>

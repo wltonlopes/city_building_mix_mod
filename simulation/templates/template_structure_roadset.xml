@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Identity>
+    <Icon>structures/earth_road.png</Icon>
+    <Classes datatype="tokens">Town Road</Classes>
+    <GenericName>Road</GenericName>
+    <Tooltip>Build roads to increase troop mobility.</Tooltip>
+    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Undeletable>true</Undeletable>
+    <VisibleClasses datatype="tokens">Road</VisibleClasses>
+  </Identity>
+  <WallSet>
+    <MaxTowerOverlap>0.80</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

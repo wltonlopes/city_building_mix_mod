@@ -1,0 +1,12 @@
+{
+	"code": "metal",
+	"name": "Metal",
+	"description": "Mine from metal mines or mine shafts. Used for researching Forge Technologies and training swordsmen, slingers, and siege weapons.",
+	"order": 4,
+	"subtypes": {
+		"ore": "Ore"
+	},
+    "properties": ["barterable", "tributable"],
+	"truePrice": 100,
+	"aiAnalysisInfluenceGroup": "sparse"
+}
